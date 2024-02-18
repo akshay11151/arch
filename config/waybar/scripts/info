@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Fetch the current song title
+songTitle=$(mocp -i 2>/dev/null | grep -i 'SongTitle' | sed 's/.*SongTitle: //')
+
+# Output for Waybar
+echo "$songTitle"
+

@@ -24,6 +24,7 @@ tooltip {
     padding: 5px;
     color: #313244;
     margin-right: 5px;
+    background: rgba(30, 30, 46, 0.7);
 }
 
 #workspaces button.active {
@@ -51,6 +52,7 @@ tooltip {
 #custom-language,
 #custom-updates,
 #custom-caffeine,
+#custom-mocSongTitle,
 #custom-weather,
 #window,
 #clock,
@@ -60,7 +62,7 @@ tooltip {
 #workspaces,
 #tray,
 #backlight {
-    background: #1e1e2e;
+    background: rgba(30, 30, 46, 0.7);
     padding: 0px 10px;
     margin: 3px 0px;
     margin-top: 10px;
@@ -78,6 +80,10 @@ tooltip {
     margin-left: 10px;
     padding-right: 0px;
     padding-left: 5px;
+}
+#custom-mocSongTitle {
+	margin-left: 10px;
+	border-radius: 10px;
 }
 
 #custom-caffeine {
@@ -108,7 +114,7 @@ tooltip {
 
 #clock {
     color: #fab387;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 10px 10px 10px;
     margin-left: 5px;
     border-right: 0px;
 }
@@ -117,6 +123,13 @@ tooltip {
     color: #f9e2af;
     border-left: 0px;
     border-right: 0px;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 10px;
+}
+
+#backlight {
+	color: #89b4fa;
+	border-radius: 10px 0px 0px 10px;
 }
 
 #pulseaudio {
